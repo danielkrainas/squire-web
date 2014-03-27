@@ -2,6 +2,7 @@
   "name": "Squire.Web",
   "version": "0.1.5",
   "description": "",
+  "private": true,
   "author": "Daniel Krainas",
   "license": "MIT",
   "devDependencies": {

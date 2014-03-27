@@ -14,10 +14,10 @@
     {
         private readonly IServiceLocator locator;
 
-        public IocHttpControllerActivator(IServiceLocator container)
+        public IocHttpControllerActivator(IServiceLocator locator)
         {
             locator.VerifyParam("locator").IsNotNull();
-            this.locator = container;
+            this.locator = locator;
         }
 
         public IHttpController Create(HttpRequestMessage request, HttpControllerDescriptor controllerDescriptor, Type controllerType)

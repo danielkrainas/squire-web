@@ -13,7 +13,6 @@
         <dependencies>
           <dependency id="squire.essentials" version="$version$" />
           <dependency id="squire.decoupled" version="$version$" />
-          <dependency id="squire.security" version="$version$" />
         </dependencies>
     </metadata>
     <files>

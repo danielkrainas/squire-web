@@ -95,5 +95,6 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['mkdir', 'msbuild', 'mstest', 'nugetpack']);
     grunt.registerTask('test', ['mstest']);
     grunt.registerTask('publish', ['default', 'nugetpush']);
-    grunt.registerTask('updateversion', ['bump-only:minor', 'assemblyinfo', 'bump-commit']);
+    grunt.registerTask('pack', ['mkdir', 'nugetpack']);
+    grunt.registerTask('patch', ['bump-only:patch', 'assemblyinfo', 'msbuild', 'mstest', 'bump-commit']);
 };

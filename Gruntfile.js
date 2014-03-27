@@ -6,9 +6,9 @@ module.exports = function (grunt) {
         bump: {
             options: {
                 files: ['package.json'],
-                updateConfigs: ['pkg', 'nugetpack.dist.options'],
+                updateConfigs: ['pkg'],
                 commit: true,
-                commitMessage: 'Release v%VERSION%',
+                commitMessage: 'release v%VERSION%',
                 commitFiles: ['package.json', 'GlobalAssemblyInfo.cs'],
                 createTag: true,
                 tagName: 'v%VERSION%',
@@ -69,7 +69,7 @@ module.exports = function (grunt) {
                 dest: 'release',
 
                 options: {
-                    version: grunt.config('pkg').version
+                    version: grunt.file.readJSON('package.json').version
                 }
             }
         },

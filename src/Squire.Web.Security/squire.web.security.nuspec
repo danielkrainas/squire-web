@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>squire.web.security</id>
+        <version>$version$</version>
+        <title>Squire Web Security Components</title>
+        <authors>dkrainas</authors>
+        <owners />
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>squire web security</tags>
+        <description>Squire web security components.</description>
+        <dependencies>
+          <dependency id="squire.essentials" version="" />
+          <dependency id="squire.web" version="$version$" />
+          <dependency id="squire.security" version="" />
+          <dependency id="squire.decoupled" version="" />
+          <dependency id="Newtonsoft.Json" version="" />
+        </dependencies>
+    </metadata>
+    <files>
+    </files>
+</package>

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D4EDBB5B-A23F-42B4-BBC4-D7A51E8498AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FFE05EA-7056-4D6A-8D61-41219956604A}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		Gruntfile.js = Gruntfile.js
+		MIT-LICENSE.txt = MIT-LICENSE.txt
+		package.json = package.json
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Web.Security.Tests", "tests\Squire.Web.Security.Tests\Squire.Web.Security.Tests.csproj", "{DC880F10-A860-4A58-AD58-7E6B01311D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Web.Tests", "tests\Squire.Web.Tests\Squire.Web.Tests.csproj", "{B0B346C7-7350-425E-A9D9-877F56C58609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Web", "src\Squire.Web\Squire.Web.csproj", "{E4B3BE9E-F528-432A-B8EA-B361374567BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Web.Security", "src\Squire.Web.Security\Squire.Web.Security.csproj", "{8E7E04BD-A1A0-4824-A081-AFEE6333154D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC880F10-A860-4A58-AD58-7E6B01311D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC880F10-A860-4A58-AD58-7E6B01311D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC880F10-A860-4A58-AD58-7E6B01311D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC880F10-A860-4A58-AD58-7E6B01311D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B346C7-7350-425E-A9D9-877F56C58609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B346C7-7350-425E-A9D9-877F56C58609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B346C7-7350-425E-A9D9-877F56C58609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B346C7-7350-425E-A9D9-877F56C58609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B3BE9E-F528-432A-B8EA-B361374567BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B3BE9E-F528-432A-B8EA-B361374567BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B3BE9E-F528-432A-B8EA-B361374567BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B3BE9E-F528-432A-B8EA-B361374567BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7E04BD-A1A0-4824-A081-AFEE6333154D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7E04BD-A1A0-4824-A081-AFEE6333154D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7E04BD-A1A0-4824-A081-AFEE6333154D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7E04BD-A1A0-4824-A081-AFEE6333154D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC880F10-A860-4A58-AD58-7E6B01311D42} = {D4EDBB5B-A23F-42B4-BBC4-D7A51E8498AA}
+		{B0B346C7-7350-425E-A9D9-877F56C58609} = {D4EDBB5B-A23F-42B4-BBC4-D7A51E8498AA}
+	EndGlobalSection
+EndGlobal

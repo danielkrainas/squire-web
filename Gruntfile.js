@@ -92,7 +92,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-dotnet-assembly-info');
     grunt.loadNpmTasks('grunt-bump');
 
-    grunt.registerTask('default', ['mkdir', 'msbuild', 'mstest', 'nugetpack']);
+    grunt.registerTask('default', ['mkdir', 'msbuild', 'mstest']);
     grunt.registerTask('test', ['mstest']);
     grunt.registerTask('publish', ['default', 'nugetpush']);
     grunt.registerTask('pack', ['mkdir', 'nugetpack']);

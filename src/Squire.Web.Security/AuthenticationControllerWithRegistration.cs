@@ -12,8 +12,8 @@
     using Squire.Validation;
     using System.Security.Cryptography;
     using Squire.Decoupled.Queries;
-    using Squire.Sentinel.Authentication;
-    using Squire.Sentinel;
+    using Squire.Security.Authentication;
+    using Squire.Security;
 
     public abstract class AuthenticationControllerWithRegistration : AuthenticationController
     {

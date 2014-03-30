@@ -1,6 +1,6 @@
 ﻿namespace Squire.Web.Security
 {
-    using Squire.Sentinel;
+    using Squire.Security;
     using System;
     using System.Collections.Generic;
     using System.Linq;

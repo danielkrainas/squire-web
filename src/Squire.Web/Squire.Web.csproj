@@ -40,11 +40,13 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\packages\Newtonsoft.Json.6.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Squire.Decoupled">
-      <HintPath>..\..\packages\squire.decoupled.0.1.1\lib\net40\Squire.Decoupled.dll</HintPath>
+    <Reference Include="Squire.Decoupled, Version=0.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\squire.decoupled.0.1.3\lib\net40\Squire.Decoupled.dll</HintPath>
     </Reference>
-    <Reference Include="Squire.Essentials">
-      <HintPath>..\..\packages\squire.essentials.0.1.1\lib\net40\Squire.Essentials.dll</HintPath>
+    <Reference Include="Squire.Essentials, Version=0.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\squire.essentials.0.1.3\lib\net40\Squire.Essentials.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

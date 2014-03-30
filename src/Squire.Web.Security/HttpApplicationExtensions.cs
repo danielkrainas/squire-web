@@ -8,8 +8,8 @@
     using System.Web;
     using Squire.Validation;
     using Squire.Web;
-    using Squire.Sentinel.Authentication;
-    using Squire.Sentinel;
+    using Squire.Security.Authentication;
+    using Squire.Security;
     using System.Linq.Expressions;
 
     public static class HttpApplicationExtensions

@@ -8,10 +8,10 @@
     using System.Threading.Tasks;
     using System.Web;
     using System.Web.Mvc;
-    using AbilityFacade = Squire.Sentinel.Abilities.Ability;
+    using AbilityFacade = Squire.Security.Abilities.Ability;
     using System.Reflection;
-    using Squire.Sentinel.Abilities;
-    using Squire.Sentinel;
+    using Squire.Security.Abilities;
+    using Squire.Security;
 
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class HasAbilityAttribute : IsPlayerAttribute

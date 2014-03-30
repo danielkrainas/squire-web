@@ -1,6 +1,6 @@
 ﻿namespace Squire.Web.Security
 {
-    using Squire.Sentinel;
+    using Squire.Security;
     using Squire.Validation;
 
     public class PlayerRegistrationConfirmation

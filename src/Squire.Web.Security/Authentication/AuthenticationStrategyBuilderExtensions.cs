@@ -1,7 +1,7 @@
 ﻿namespace Squire.Web.Security.Authentication
 {
-    using Squire.Sentinel;
-    using Squire.Sentinel.Authentication;
+    using Squire.Security;
+    using Squire.Security.Authentication;
     using Squire.Web;
     using System;
     using System.Collections.Generic;

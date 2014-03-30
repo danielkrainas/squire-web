@@ -9,8 +9,8 @@
     using Squire.Validation;
     using System.Threading;
     using System.Web.Security;
-    using Squire.Sentinel.Authentication;
-    using Squire.Sentinel;
+    using Squire.Security.Authentication;
+    using Squire.Security;
 
     public class FormsAuthenticationSessionTracker : ISessionTracker
     {

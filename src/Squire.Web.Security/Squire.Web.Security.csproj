@@ -60,7 +60,7 @@
     <Compile Include="AccountVerification.cs" />
     <Compile Include="AuthenticationController.cs" />
     <Compile Include="AuthenticationControllerWithRegistration.cs" />
-    <Compile Include="Authentication\AuthenticationStrategyBuilderExtensions.cs" />
+    <Compile Include="Authentication\WebSecurityStrategyBuilderExtensions.cs" />
     <Compile Include="Authentication\FormsAuthenticationServiceAdapter.cs" />
     <Compile Include="Authentication\FormsAuthenticationSessionTracker.cs" />
     <Compile Include="Authentication\IFormsAuthenticationService.cs" />

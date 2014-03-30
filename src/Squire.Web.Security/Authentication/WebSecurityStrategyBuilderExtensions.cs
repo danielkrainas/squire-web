@@ -8,7 +8,7 @@
     using System.Linq;
     using System.Text;
 
-    public static class AuthenticationStrategyBuilderExtensions
+    public static class WebSecurityStrategyBuilderExtensions
     {
         public static AuthenticationStrategyBuilder EnableFormsTracker(this AuthenticationStrategyBuilder builder, IPlayerTokenizer tokenizer)
         {

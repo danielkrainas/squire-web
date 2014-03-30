@@ -10,17 +10,18 @@
     using Squire.Web;
     using Squire.Sentinel.Authentication;
     using Squire.Sentinel;
+    using System.Linq.Expressions;
 
     public static class HttpApplicationExtensions
     {
-        public static void EnableFormsAuthenticatorSupport(this HttpApplication httpApplication, IPlayerTokenizer tokenizer, Func<AuthenticationStrategyBuilder, AuthenticationStrategyBuilder> additionalOptions)
+        public static void EnableFormsAuthenticatorSupport(this HttpApplication httpApplication, IPlayerTokenizer tokenizer, Expression<Func<AuthenticationStrategyBuilder, AuthenticationStrategyBuilder>> additionalOptions)
         {
             additionalOptions.VerifyParam("builderOptions").IsNotNull();
             var builder = new AuthenticationStrategyBuilder();
             builder.EnableFormsTracker(tokenizer);
             if (additionalOptions != null)
             {
-                builder = additionalOptions(builder);
+                builder = additionalOptions.Compile().Invoke(builder);
             }
 
             Authenticator.Assign(builder.Build());

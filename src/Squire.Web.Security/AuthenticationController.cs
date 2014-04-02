@@ -8,7 +8,7 @@
     using System.Web.Mvc;
     using System.Web.Security;
     using Squire.Web;
-    using Squire.Web.Security;
+    using Squire.Web.Mvc;
     using Squire.Validation;
     using System.Security.Cryptography;
     using Squire.Decoupled.Queries;

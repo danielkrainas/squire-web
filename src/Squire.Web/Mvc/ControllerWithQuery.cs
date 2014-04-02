@@ -1,4 +1,4 @@
-﻿namespace Squire.Web.Security
+﻿namespace Squire.Web.Mvc
 {
     using Squire.Decoupled.Queries;
     using System;

@@ -1,4 +1,4 @@
-﻿namespace Squire.Web.Security
+﻿namespace Squire.Web.Mvc
 {
     using System;
     using System.Collections.Generic;

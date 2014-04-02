@@ -1,4 +1,4 @@
-﻿namespace Squire.Web.Security
+﻿namespace Squire.Web.Mvc
 {
     using Microsoft.Practices.ServiceLocation;
     using System;

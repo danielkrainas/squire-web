@@ -115,6 +115,7 @@
     <Compile Include="RequestIntercept.cs" />
     <Compile Include="RequestInterceptBootstrapper.cs" />
     <Compile Include="RequestInterceptConfiguration.cs" />
+    <Compile Include="SquireRouteCollectionExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -9,7 +9,7 @@
 
     public static class SquireRouteCollectionExtensions
     {
-        public static void MapHome(this RouteCollection routes, string url = "/", string controller = "Home", string action = "Index",  string[] namespaces = null)
+        public static void MapHome(this RouteCollection routes, string url = "", string controller = "Home", string action = "Index",  string[] namespaces = null)
         {
             routes.MapRoute(
                 name: CommonRoutes.Home,

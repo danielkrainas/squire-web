@@ -65,7 +65,6 @@
         }
 
         [HttpGet]
-        [IsPlayer]
         public virtual ActionResult Logout()
         {
             if (this.Request.IsAuthenticated)

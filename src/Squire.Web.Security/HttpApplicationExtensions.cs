@@ -25,6 +25,7 @@
             }
 
             Authenticator.Assign(builder.Build());
+            RequestIntercept.GlobalConfig.Register(new FormsAuthenticationUserBootstrapper());
         }
     }
 }

@@ -1,10 +1,6 @@
 ﻿namespace Squire.Web.Http
 {
     using Microsoft.Practices.ServiceLocation;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
     using System.Web.Http.Controllers;
     using System.Web.Http.Dispatcher;
 

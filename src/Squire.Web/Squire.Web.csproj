@@ -94,6 +94,7 @@
     <Compile Include="..\..\GlobalAssemblyInfo.cs">
       <Link>Properties\GlobalAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="AppSetupWebExtensions.cs" />
     <Compile Include="CommonRoutes.cs" />
     <Compile Include="DefaultHttpContextProvider.cs" />
     <Compile Include="Http\ApiControllerWithQuery.cs" />
@@ -108,7 +109,6 @@
     <Compile Include="Mvc\ControllerBuilderExtensions.cs" />
     <Compile Include="Mvc\ControllerWithQuery.cs" />
     <Compile Include="Mvc\IocControllerFactory.cs" />
-    <Compile Include="Mvc\RouteCollectionExtensions.cs" />
     <Compile Include="Mvc\UrlHelperExtensions.cs" />
     <Compile Include="PreApplicationStartCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,9 +8,9 @@
     using System.Web.Mvc;
     using System.Web.Routing;
 
-    public static class RouteCollectionExtensions
+    public static class RouteCollectionSecurityExtensions
     {
-        public static void MapAccountRoutes(this RouteCollection routes, string controllerName = "Account", string controllerUrlPath = "account/", string[] namespaces = null)
+        public static void MapAccountRoutes(this RouteCollection routes, string controllerName = "Account", string controllerUrlPath = "account/", string[] namespaces = null, bool registration = true)
         {
             controllerName.VerifyParam("controllerName").IsNotNull();
             controllerUrlPath.VerifyParam("controllerUrlPath").IsNotNull();
@@ -32,11 +32,14 @@
                 namespaces: namespaces,
                 defaults: new { controller = controllerName, action = "Index" });
 
-            routes.MapRoute(
-                name: AccountRoutes.Registration,
-                url: controllerUrlPath + "register",
-                namespaces: namespaces,
-                defaults: new { controller = controllerName, action = "Register" });
+            if (registration)
+            {
+                routes.MapRoute(
+                    name: AccountRoutes.Registration,
+                    url: controllerUrlPath + "register",
+                    namespaces: namespaces,
+                    defaults: new { controller = controllerName, action = "Register" });
+            }
         }
     }
 }

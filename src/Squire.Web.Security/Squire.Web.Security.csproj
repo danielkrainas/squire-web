@@ -66,13 +66,14 @@
     <Compile Include="Authentication\FormsAuthenticationSessionTracker.cs" />
     <Compile Include="Authentication\IFormsAuthenticationService.cs" />
     <Compile Include="HasAbilityAttribute.cs" />
-    <Compile Include="HttpApplicationExtensions.cs" />
+    <Compile Include="HasRoleAttribute.cs" />
     <Compile Include="IsPlayerAttribute.cs" />
     <Compile Include="LoginRequest.cs" />
     <Compile Include="PlayerRegistrationConfirmation.cs" />
     <Compile Include="PlayerRegistrationRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RouteCollectionExtensions.cs" />
+    <Compile Include="RouteCollectionSecurityExtensions.cs" />
+    <Compile Include="AppSetupSecurityExtensions.cs" />
     <Compile Include="SentinelController.cs" />
   </ItemGroup>
   <ItemGroup>

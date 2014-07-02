@@ -30,17 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Squire.Decoupled, Version=0.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Squire.Decoupled, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\squire.decoupled.0.2.0\lib\net40\Squire.Decoupled.dll</HintPath>
+      <HintPath>..\..\packages\squire.decoupled.0.2.1\lib\net40\Squire.Decoupled.dll</HintPath>
     </Reference>
-    <Reference Include="Squire.Essentials, Version=0.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Squire.Essentials, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\squire.essentials.0.2.0\lib\net40\Squire.Essentials.dll</HintPath>
+      <HintPath>..\..\packages\squire.essentials.0.2.1\lib\net40\Squire.Essentials.dll</HintPath>
     </Reference>
-    <Reference Include="Squire.Security, Version=0.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Squire.Security, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\squire.security.0.2.0\lib\net40\Squire.Security.dll</HintPath>
+      <HintPath>..\..\packages\squire.security.0.2.1\lib\net40\Squire.Security.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

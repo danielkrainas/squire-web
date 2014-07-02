@@ -12,7 +12,7 @@
     {
         public ApiControllerWithQuery(IDispatchQuery queryDispatcher)
         {
-            ValidationHelper.ArgumentNotNull(queryDispatcher, "queryDispatcher");
+            queryDispatcher.VerifyParam("queryDispatcher").IsNotNull();
             this.Query = queryDispatcher;
         }
 
